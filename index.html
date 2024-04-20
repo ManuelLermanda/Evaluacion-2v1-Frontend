@@ -6,24 +6,32 @@
     <link rel="stylesheet" href="estilo.css">
     <title>Alfredo's Fast Food Landing Page</title>
 </head>
-<body>
-    <div>
-        <header class="hero"><h1>¡Bienvenido a Alfredo's!</h1></header>
-        <h2 class="titulo">¡Disfruten de su comida y de nuestro ambiente!</h2>
+<body>  <!-- indice -->
+    <nav class="menu">
+        <ul class="menu">
+            <li>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#ofertas">Ofertas</a></li>
+                <li><a href="#galeria">Nuestros Productos</a></li>
+                <li><a href="#pedido">Realiza tu pedido</a></li>
+                <li><a href="#info">Conócenos</a></li>
+            </li>
+        </ul>
+    </nav>  
+
+        <header id ="inicio" class="hero">
+            <div class="hero.texto">
+                <h1 class="titulo">¡Bienvenido a Alfredo's!</h1>
+                <h2 class="titulo">¡Disfruten de su comida y de nuestro ambiente!</h2>                
+            </div>
+        </header>
     </div>
-    <!-- indice -->
-        <nav>
-            <ul class="menu">
-                <a href="#ofertas"><li>Ofertas</li></a>
-                <a href="#galeria"><li>Nuestros productos</li></a>
-                <a href="#pedido"><li></li>Realiza tu pedido</a>
-                <a href="#info"><li></li>Conocenos</a>
-        </nav>
-    </div>
+
+
     <!-- ofertas -->
-    <div id="ofertas" class="contenedor-card">
+    <section id="ofertas" class="contenedor-card">
         <h2 class="titulo">Revisa aqui nuestra ofertas</h2>
-        <div>
+        <div style="display: inline;">
             <div class="card">
                 <h4>3 Hamburguesas por el precio de 2!</h4>
                 <img class="img" src="https://i2.wp.com/www.soymamamoderna.com/wp-content/uploads/2021/07/Duo_.jpg?fit=605%2C611&ssl=1" alt="">
@@ -37,17 +45,17 @@
                 <h3>$49.990!</h3>
             </div>
         </div>
-        <div>
+    </section>
 
         </div>
         <div>
             
         </div>
-    </div>
+    </section>
     <!-- productos (galeria) -->
-    <div id="galeria">
+    <section id="galeria">
         <h2 class="titulo">Encuentra más de nuestros productos.</h2>
-        <div class="galeria">
+        <div>
             <img class="img"src="https://www.latercera.com/resizer/W5UWW24r-aTstOtb3siV7e_6SaA=/900x600/smart/cloudfront-us-east-1.images.arcpublishing.com/copesa/QM7SJBU6WRFFFB4K4NEL5M3PNI.jpg" alt="">
             <img class="img"src="https://estaticos.elcolombiano.com/binrepository/640x800/0c117/640d565/none/11101/WRWO/93973238-999525113777720-8216017215577451725-n_42404597_20230518142407.jpg" alt="">
             <img class="img"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGZ5srr78VJXLA9Xb4C1c6KcANEbQb1YHLTI05ZQ3agGl5SFqCjdQoaviclwubSTe1EiY&usqp=CAU" alt="">
@@ -61,7 +69,7 @@
             <img class="img"src="https://cnnespanol.cnn.com/wp-content/uploads/2015/06/150611062152-pizza-hut.jpg?quality=100&strip=info&w=460&h=260&crop=1" alt="">
             <img class="img"src="https://cdn2.cocinadelirante.com/680x400/filters:format(jpg):quality(75)/sites/default/files/images/2017/04/comidarapida.jpg" alt="">
         </div>
-    </div>
+    </section>
     <!-- formulario pedido -->
     <section>
         <div id="pedido">
@@ -76,17 +84,23 @@
                 <label for="">Ingrese su dirección</label>
                 <input type="text" name="direccion" placeholder="direccion">
                 <label for="">Ingrese su pedido</label>
-                <input type="text" name="pedido" placeholder="pedido" rows=10">
-                <input style= "text-align: center" type="submit">  
+                <textarea name="pedido" id="pedido" cols="30" rows="10"></textarea>
+                <input type="submit">  
             </form>
-
         </div>
     </section>
 
     <!-- footer -->
-    <div id="info">
-        <h1>tendre uqe poner mas weas aca</h1>
 
-    </div>
+    <section class="hero">
+        <div>
+            <p class="footer">¡Contáctate con nosotros!</p>
+            <p>Manuel Lermanda Seguel</p>
+            <p>+569 9999 999</p>
+            <p>Lago Villarica 666</p>
+            <p>manuel.lermanda@inacap.cl</p>
+            <a href="https://portales.inacap.cl/">Inacap</a>
+        </div>
+    </section>
 </body>
 </html>
