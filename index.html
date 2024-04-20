@@ -12,22 +12,24 @@
         <h2 class="titulo">¡Disfruten de su comida y de nuestro ambiente!</h2>
     </div>
     <!-- indice -->
-    <div class="titulo">
-        <ul>
-            <a href="#ofertas"><li>Ofertas</li></a>
-            <a href="#galeria"><li>Nuestros productos</li></a>
-            <a href="#pedido"><li></li>Realiza tu pedido</a>
-            <a href="#info"><li></li>Conocenos</a>
-        </ul>
+        <nav>
+            <ul class="menu">
+                <a href="#ofertas"><li>Ofertas</li></a>
+                <a href="#galeria"><li>Nuestros productos</li></a>
+                <a href="#pedido"><li></li>Realiza tu pedido</a>
+                <a href="#info"><li></li>Conocenos</a>
+        </nav>
     </div>
     <!-- ofertas -->
-    <div id="ofertas">
+    <div id="ofertas" style="text-align: center;">
         <h2 class="titulo">Revisa aqui nuestra ofertas</h2>
         <div>
-            <h4>3 Hamburguesas por el precio de 2!</h4>
-            <img class="img" src="https://i2.wp.com/www.soymamamoderna.com/wp-content/uploads/2021/07/Duo_.jpg?fit=605%2C611&ssl=1" alt="">
-            <h5>Lleva 3 Hamburguesas a tu elección por solo:</h5>
-            <h3>$9.990!</h3>
+            <div class="card">
+                <h4>3 Hamburguesas por el precio de 2!</h4>
+                <img class="img" src="https://i2.wp.com/www.soymamamoderna.com/wp-content/uploads/2021/07/Duo_.jpg?fit=605%2C611&ssl=1" alt="">
+                <h5>Lleva 3 Hamburguesas a tu elección por solo:</h5>
+                <h3>$9.990!</h3>
+            </div>
             <h4>¡Todo lo que puedas comer!</h4>
             <img class="img" src="https://tb-static.uber.com/prod/image-proc/processed_images/6dcd058a44ce6b2f5ed466e7f0b10c92/61e8d264e9409914f90881b13f54d0ac.jpeg" alt="">
             <h5>Todo lo que puedas comer de nuestro menú especial por solo:</h5>
@@ -59,26 +61,29 @@
         </div>
     </div>
     <!-- formulario pedido -->
-    <div id="pedido">
-        <h1 class="titulo">Realiza tu pedido aqui!</h1>
-        <form action="">
-            <label for="">Ingrese su nombre</label>
-            <input type="text" name="nombre" placeholder="nombre">
-            <label for="">Ingrese su correo</label>
-            <input type="text" name="correo" placeholder="correo">
-            <label for="">Ingrese su telefono</label>
-            <input type="text" name="telefono" placeholder="telefono">
-            <label for="">Ingrese su dirección</label>
-            <input type="text" name="direccion" placeholder="direccion">
-            <label for="">Ingrese su pedido</label>
-            <input type="text" name="pedido" placeholder="pedido">
-            <input type="submit">
-            
-        </form>
+    <section>
+        <div id="pedido">
+            <h1 class="titulo">Realiza tu pedido aqui!</h1>
+            <form class="formulario" action="">
+                <label for="">Ingrese su nombre</label>
+                <input type="text" name="nombre" placeholder="nombre">
+                <label for="">Ingrese su correo</label>
+                <input type="text" name="correo" placeholder="correo">
+                <label for="">Ingrese su telefono</label>
+                <input type="text" name="telefono" placeholder="telefono">
+                <label for="">Ingrese su dirección</label>
+                <input type="text" name="direccion" placeholder="direccion">
+                <label for="">Ingrese su pedido</label>
+                <input type="text" name="pedido" placeholder="pedido" rows=10">
+                <input style= "text-align: center" type="submit">  
+            </form>
 
-    </div>
+        </div>
+    </section>
+
     <!-- footer -->
     <div id="info">
+        <h1>tendre uqe poner mas weas aca</h1>
 
     </div>
 </body>

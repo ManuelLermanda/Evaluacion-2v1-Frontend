@@ -4,6 +4,22 @@
     background-color: yellow;
 }
 
+.menu{
+    box-shadow: 0 0 10px black;
+    border-radius: 8px;
+    width: 30%;
+    text-align: center;
+}
+
+.card{
+    box-shadow: 0 0 15px black;
+    border-radius: 8px;
+    width: 30%;
+    background-color: red;
+
+}
+
+
 .hero{
     background-image:url(https://img.freepik.com/vector-gratis/deliciosa-comida-rapida-estilo-pop-art_24908-61615.jpg?size=338&ext=jpg&ga=GA1.1.1488620777.1712016000&semt=ais);
     background-attachment:scroll;
@@ -35,3 +51,11 @@
 .galeria{
     margin: 20px 10px 10px 20px;
 }
+
+.formulario{
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
